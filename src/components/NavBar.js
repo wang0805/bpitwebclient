@@ -358,13 +358,6 @@ class NavBar extends Component {
                                 {t("contact")}
                               </Link>{" "}
                             </li>
-                            <li>
-                              <Link
-                                to={`${process.env.PUBLIC_URL}/openaccount`}
-                              >
-                                {t("acctopening")}
-                              </Link>
-                            </li>
                           </ul>
                         </nav>
                       </div>

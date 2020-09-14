@@ -41,7 +41,7 @@ export const FormSuccess = (formikProps) => {
           <a
             href={urllink}
             style={{
-              color: "#9e1e16",
+              color: "#282560",
               textDecoration: "underline",
               fontWeight: "bold",
             }}
