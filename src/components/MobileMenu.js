@@ -104,14 +104,14 @@ class MobileMenu extends Component {
                         </Link>
                       </li>
                       <li>
-                        <Link to={`${process.env.PUBLIC_URL}/clearing`}>
-                          Global Clearing
+                        <Link to={`${process.env.PUBLIC_URL}/trading`}>
+                          Trading
                         </Link>
-                        <Link to={`${process.env.PUBLIC_URL}/cfd`}>
-                          Emerging Markets CFD
+                        <Link to={`${process.env.PUBLIC_URL}/arbitrage`}>
+                          Arbitrage
                         </Link>
-                        <Link to={`${process.env.PUBLIC_URL}/idb`}>
-                          Inter-Dealer Broking
+                        <Link to={`${process.env.PUBLIC_URL}/financing`}>
+                          Financing
                         </Link>
                         {/* <Link to={`${process.env.PUBLIC_URL}/advisory`}>
                           Advisory
@@ -147,11 +147,6 @@ class MobileMenu extends Component {
                       CONTACT
                     </Link>{" "}
                   </li>
-                  <li>
-                    <Link to={`${process.env.PUBLIC_URL}/openaccount`}>
-                      OPEN ACCOUNT
-                    </Link>{" "}
-                  </li>
                 </ul>
               </nav>
               <div className="offcanvas-widget-area">
@@ -165,7 +160,7 @@ class MobileMenu extends Component {
                       <li>
                         <i className="ion-android-mail" />{" "}
                         <a href="mailto:info@yourdomain.com">
-                          Sales@bpifinancial.com
+                          ops@bpi-trading.com
                         </a>
                       </li>
                     </ul>
