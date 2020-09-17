@@ -90,23 +90,11 @@ class Contact extends Component {
                       </li>
                       <li>
                         <span className="icon">
-                          <i className="ion-android-map" />
-                        </span>
-                        <span className="text">
-                          <span>
-                            Unit 3401-03, 34/F, China Merchants Tower, Shun Tak
-                            Centre, No. 168-200 Connaught Road Central, Sheung
-                            Wan, Hong Kong
-                          </span>
-                        </span>
-                      </li>
-                      <li>
-                        <span className="icon">
                           <i className="ion-ios-telephone-outline" />
                         </span>
                         <span className="text">
+                          <a href="tel:1234567890">Landline</a>
                           <a href="tel:1234567890">+65 6499 0618</a>
-                          <a href="tel:1234567890">+852 3755 8228</a>
                         </span>
                       </li>
                       <li>
@@ -114,8 +102,9 @@ class Contact extends Component {
                           <i className="ion-ios-email-outline" />
                         </span>
                         <span className="text">
-                          <a href="mailto:sales@bpifinancial.com">
-                            Clearing@bpifinancial.com Sales@bpifinancial.com
+                          <a href="mailto:ops@bpitrading.com">Email</a>
+                          <a href="mailto:ops@bpitrading.com">
+                            ops@bpi-trading.com
                           </a>
                           {/* <a href="mailto:info@example.com">info@example.com</a> */}
                         </span>

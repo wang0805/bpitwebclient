@@ -139,7 +139,6 @@ class NavBar extends Component {
               </div>
             </div>
             {/*=======  End of header top bar  =======*/}
-            {/*=======  header info area  =======*/}
             <div className="header-info-area">
               <div className="container">
                 <div className="row align-items-center">
@@ -164,10 +163,11 @@ class NavBar extends Component {
                           </div>
                           <div className="header-info-single-item__content">
                             <h6 className="header-info-single-item__title">
-                              {t("phone")}
+                              {/* {t("phone")} */}
+                              Email
                             </h6>
                             <p className="header-info-single-item__subtitle">
-                              +65 6499 0618
+                              ops@bpi-trading.com
                             </p>
                           </div>
                         </div>
@@ -198,6 +198,23 @@ class NavBar extends Component {
                 </div>
               </div>
             </div>
+            {/*=======  header info area  =======*/}
+            {/* <div
+              style={{
+                position: "fixed",
+                top: 20,
+                right: 20,
+                zIndex: 2,
+              }}
+            >
+              <div
+                className="mobile-navigation-icon"
+                id="mobile-menu-trigger"
+                onClick={this.activeMobileMenu}
+              >
+                <i />
+              </div>
+            </div> */}
             {/*=======  End of header info area =======*/}
             {/*=======  header navigation area  =======*/}
             <div className="header-navigation-area default-bg">
@@ -250,41 +267,31 @@ class NavBar extends Component {
                               </Link>
                             </li>
                             <li className="has-children has-children--multilevel-submenu">
-                              <Link to={`${process.env.PUBLIC_URL}/services`}>
+                              <Link to={`${process.env.PUBLIC_URL}/trading`}>
                                 {t("service")}
                               </Link>
                               <ul className="submenu">
                                 <li>
                                   <Link
-                                    to={`${process.env.PUBLIC_URL}/services`}
+                                    to={`${process.env.PUBLIC_URL}/trading`}
                                   >
-                                    Services
+                                    Trading
                                   </Link>
                                 </li>
                                 <li>
                                   <Link
-                                    to={`${process.env.PUBLIC_URL}/clearing`}
+                                    to={`${process.env.PUBLIC_URL}/arbitrage`}
                                   >
-                                    Global Clearing
+                                    Arbitrage
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link to={`${process.env.PUBLIC_URL}/cfd`}>
-                                    Emerging Markets CFD
-                                  </Link>
-                                </li>
-                                <li>
-                                  <Link to={`${process.env.PUBLIC_URL}/idb`}>
-                                    Inter-Dealer Broking
-                                  </Link>
-                                </li>
-                                {/* <li>
                                   <Link
-                                    to={`${process.env.PUBLIC_URL}/advisory`}
+                                    to={`${process.env.PUBLIC_URL}/financing`}
                                   >
-                                    Advisory
+                                    Financing
                                   </Link>
-                                </li> */}
+                                </li>
 
                                 {/* <li>
                                   <Link

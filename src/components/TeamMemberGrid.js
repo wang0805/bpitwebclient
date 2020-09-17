@@ -7,9 +7,9 @@ class TeamMemberGrid extends Component {
     let data = [
       {
         profileImage: "team-1.jpg",
-        profileTitle: "Kenny Mah",
-        profileDesignation: "Group CEO",
-        profileEmail: "Kennymah@bpifinancial.com",
+        profileTitle: "Jason Leow",
+        profileDesignation: "??",
+        profileEmail: "??",
         socialLinks: {
           facebook: "//www.facebook.com",
           twitter: "//www.twitter.com",
@@ -19,33 +19,9 @@ class TeamMemberGrid extends Component {
       },
       {
         profileImage: "team-2.jpg",
-        profileTitle: "Fan Song Hua",
-        profileDesignation: "Deputy Head of Clearing",
-        profileEmail: "shfan@bpifinancial.com",
-        socialLinks: {
-          facebook: "//www.facebook.com",
-          twitter: "//www.twitter.com",
-          linkedin: "//www.linkedin.com",
-          googlePlus: "//plus.google.com",
-        },
-      },
-      {
-        profileImage: "team-3.jpg",
-        profileTitle: "Wang Rou Ying",
-        profileDesignation: "Head Of Sales",
-        profileEmail: "rywang@bpifinancial.com",
-        socialLinks: {
-          facebook: "//www.facebook.com",
-          twitter: "//www.twitter.com",
-          linkedin: "//www.linkedin.com",
-          googlePlus: "//plus.google.com",
-        },
-      },
-      {
-        profileImage: "team-4.jpg",
-        profileTitle: "Coco Chan",
-        profileDesignation: "Head Of Finance",
-        profileEmail: "cocochan@bpifinancial.com",
+        profileTitle: "Lindy Li",
+        profileDesignation: "??",
+        profileEmail: "??",
         socialLinks: {
           facebook: "//www.facebook.com",
           twitter: "//www.twitter.com",
@@ -107,7 +83,7 @@ class TeamMemberGrid extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="team-member-wrapper">
-                  <div className="row">
+                  <div className="row justify-content-md-center">
                     {/* team member list */}
                     {Datalist}
                   </div>

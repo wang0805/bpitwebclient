@@ -35,22 +35,20 @@ class HeroSliderOne extends Component {
       {
         bgImg: "slider3.png",
         sliderTitle: "Welcome",
-        sliderSubtitle:
-          "One stop shop in Global Market Access and Trading solutions",
-        btnLink: "openaccount",
+        sliderSubtitle: "Commodity Trading",
+        btnLink: "contact-us",
       },
       {
         bgImg: "slider2.png",
         sliderTitle: "Welcome",
-        sliderSubtitle:
-          "Electronic Trading Access into Chinese Exchange cleared commodity derivatives for onshore offshore arbitrage strategies",
-        btnLink: "openaccount",
+        sliderSubtitle: "Physical Arbitrages",
+        btnLink: "contact-us",
       },
       {
         bgImg: "slider1.png",
         sliderTitle: "Welcome",
-        sliderSubtitle: "Advisory, Research Analysis and Hedging solutions",
-        btnLink: "openaccount",
+        sliderSubtitle: "Financing solutions",
+        btnLink: "contact-us",
       },
     ];
 
@@ -73,7 +71,7 @@ class HeroSliderOne extends Component {
                         href={`${process.env.PUBLIC_URL}/${val.btnLink}`}
                       >
                         {" "}
-                        {t("acctopening")}
+                        {t("contact")}
                       </a>
                     </div>
                   </div>

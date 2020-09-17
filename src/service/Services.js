@@ -11,27 +11,25 @@ class Services extends Component {
 
     let data = [
       {
-        pageLink: "clearing",
+        pageLink: "services",
         img: "service1.jpg",
         iconClass: "flaticon-earth-globe",
-        serviceTitle: "Global Clearing Services",
-        serviceSubtitle: t("clearing"),
+        serviceTitle: "Gold",
+        serviceSubtitle: "Writeup",
       },
       {
-        pageLink: "cfd",
+        pageLink: "services",
         img: "service2.jpg",
         iconClass: "flaticon-stats",
-        serviceTitle: "Emerging Markets CFD",
-        serviceSubtitle:
-          "BPIF provides Electronic Trading Access to Emerging Commodity Derivatives, specifically Chinese Exchanges cleared Commoditiy Derivatives",
+        serviceTitle: "Silver",
+        serviceSubtitle: "writeup",
       },
       {
-        pageLink: "idb",
+        pageLink: "services",
         img: "service3.jpg",
         iconClass: "flaticon-customer-service",
-        serviceTitle: "Inter-Dealer Broker",
-        serviceSubtitle:
-          "BPIFG acts as an intermediary to facilitate price discovery and enhance liquidity in OTC brokered derivatives such as SGX cleared iron ore and coking products",
+        serviceTitle: "Copper",
+        serviceSubtitle: "writeup",
       },
       // {
       //   pageLink: "advisory",
@@ -87,12 +85,12 @@ class Services extends Component {
                 </a>
               </h3>
               <p className="subtitle">{val.serviceSubtitle}</p>
-              <a
+              {/* <a
                 href={`${process.env.PUBLIC_URL}/${val.pageLink}`}
                 className="see-more-link"
               >
                 SEE MORE
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -116,7 +114,7 @@ class Services extends Component {
                     <li>
                       <a href="/">Home</a>
                     </li>
-                    <li>Services</li>
+                    <li>Trading</li>
                   </ul>
                 </div>
               </div>

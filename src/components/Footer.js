@@ -58,8 +58,7 @@ class Footer extends Component {
                           </a>
                         </div>
                         <div className="footer-desc">
-                          Welcome to Bright Point International Financial Group
-                          Limited
+                          Welcome to BPI Trading (SG) Pte Ltd
                         </div>
                       </div>
                     </div>
@@ -81,11 +80,11 @@ class Footer extends Component {
                               Contact Us
                             </a>
                           </li>
-                          <li>
+                          {/* <li>
                             <a href={`${process.env.PUBLIC_URL}/openaccount`}>
                               Open Account
                             </a>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </div>
@@ -132,7 +131,7 @@ class Footer extends Component {
                               <span>P:</span>+65 6499 0618
                             </li>
                             <li>
-                              <span>E:</span>Sales@bpifinancial.com
+                              <span>E:</span>ops@bpi-trading.com
                             </li>
                           </ul>
                         </div>

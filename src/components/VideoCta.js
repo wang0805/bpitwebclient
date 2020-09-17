@@ -23,13 +23,16 @@ class VideoCta extends Component {
               <div className="col-lg-6 col-md-6">
                 <div className="video-cta-content">
                   <h4 className="video-cta-content__small-title">ABOUT US</h4>
-                  <h3 className="video-cta-content__title">Welcome to BPI</h3>
+                  <h3 className="video-cta-content__title">
+                    BPI Trading (SG) Pte Ltd
+                  </h3>
                   <p className="video-cta-content__text">
-                    BPI Financial Group Limited (BPIF), through our various
-                    subsidaries, are licenced to operate regulated businesses in
-                    Hong Kong and Singapore. BPIF is also a subsidary of an Hong
-                    Kong Stock Exchange Listed company Theme International
-                    Holdings Limited
+                    BPT Trading was established in 2019 by a group of market
+                    veterans who have been in the frontlines of precious and
+                    base metals trading business for more than a decade. We have
+                    established a network of trusted partners globally and
+                    strives to create value and synergies in the trading market
+                    space
                   </p>
                   <a
                     href={`${process.env.PUBLIC_URL}/contact-us`}

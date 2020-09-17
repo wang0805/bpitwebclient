@@ -6,17 +6,11 @@ class ServiceTabExample extends Component {
     let serviceTabMenuData = [
       {
         iconName: "flaticon-earth-globe",
-        tabMenuName: "Global Clearing",
+        tabMenuName: "Trading",
       },
-      {
-        iconName: "flaticon-stats",
-        tabMenuName: "Emerging Markets CFD",
-      },
-      {
-        iconName: "flaticon-customer-service",
-        tabMenuName: "Inter-Dealer Broker",
-      },
-      { iconName: "flaticon-advisor", tabMenuName: "Advisory" },
+      { iconName: "flaticon-advisor", tabMenuName: "Arbitrage" },
+      { iconName: "flaticon-advisor", tabMenuName: "Financing" },
+      { iconName: "flaticon-advisor", tabMenuName: "Others" },
     ];
 
     let serviceTabMenuDatalist = serviceTabMenuData.map((val, i) => {
@@ -36,30 +30,26 @@ class ServiceTabExample extends Component {
     let serviceTabContentData = [
       {
         bgUrl: "service1.png",
-        contentTitle: "Global Clearing Services",
-        contentDesc:
-          "BPIFG provides market trading access and clearing services for global derivative markets across most Exchanges and asset classes including Internationalized derivatives from Chinese Exchanges",
-        serviceLink: "clearing",
+        contentTitle: "Trading",
+        contentDesc: "Writeup",
+        serviceLink: "trading",
       },
       {
         bgUrl: "service2.png",
-        contentTitle: "Access to Emerging Markets Derivatives via CFD",
-        contentDesc:
-          "BPIF provides Electronic Trading Access to Emerging Commodity Derivatives, specifically Chinese Exchanges cleared Commoditiy Derivatives",
-        serviceLink: "cfd",
+        contentTitle: "Arbitrage",
+        contentDesc: "Writeup",
+        serviceLink: "arbitrage",
       },
       {
         bgUrl: "service3.png",
-        contentTitle: "Inter-Dealer Broking Services",
-        contentDesc:
-          "BPIFG acts as an intermediary to facilitate price discovery and enhance liquidity in OTC brokered derivatives such as SGX cleared iron ore and coking products",
-        serviceLink: "idb",
+        contentTitle: "Financing",
+        contentDesc: "Writeup",
+        serviceLink: "financing",
       },
       {
         bgUrl: "service4.png",
-        contentTitle: "Advisory",
-        contentDesc:
-          "Working in close collaboration with our institutional clients, BPIF Group not only helps develop tailored hedging solutions but also facilitates in the execution of such hedging strategies",
+        contentTitle: "Others",
+        contentDesc: "Writeup",
         serviceLink: "advisory",
       },
     ];

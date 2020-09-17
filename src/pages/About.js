@@ -71,24 +71,27 @@ class About extends Component {
                 </div>
                 <div className="col-lg-6 col-12 mb-30">
                   <div className="about-content-two">
-                    <h3>Welcome to BPI Financial Group Limited</h3>
+                    <h3>Welcome to BPI Trading (SG) Pte Ltd</h3>
                     {/* <h1>50 Years of Experience in Industry</h1> */}
                     <p>
-                      BPI Financial Group Limited (BPIF) is a boutique financial
-                      instituition with a multinational presence
+                      BPI Financial Group Limited (BPIF) is a boutique trading
+                      company with a global presence
                     </p>
                     <h3>Mission</h3>
                     <p>
-                      Our mission is to provide clients with the most
-                      comprehensive and effective trading solutions possible
+                      To ensure a consistent expansion, diversification and
+                      development of trade to be the largest, most profitable
+                      and most respected trading company
                     </p>
                     <h3>Vision</h3>
                     <p>
-                      Our vision is to become the best one stop solution
-                      provider in providing trading solutions for every client
+                      To become a benchmark trading company in Hong Kong
+                      providing world class products to satisfied customers
+                      through continuous improvement driven by integrity,
+                      teamwork and commitment by our people
                     </p>
                     <a
-                      href="services"
+                      href="trading"
                       className="ht-btn--default ht-btn--default--dark-hover section-space--top--20"
                     >
                       Our Services
@@ -101,7 +104,7 @@ class About extends Component {
           {/*About section end*/}
 
           {/* Feature Icon */}
-          <FeatureIcon background="grey-bg" />
+          {/* <FeatureIcon background="grey-bg" /> */}
 
           {/*About section start*/}
           <div className="about-section section-space--inner--120">
@@ -123,11 +126,9 @@ class About extends Component {
                       <span>Our Shareholders</span>
                     </h3>
                     <p>
-                      Our shareholders are diversified to represent different
-                      segments of the industry making up of top producer,
-                      consumer and funds collectively. Our majority shareholder
-                      is Theme International Holdings Ltd, a public listed
-                      company on Hong Kong Stock Exchange (HK:990)
+                      Our parent company is BPI Financial Group Limited which is
+                      part of a larger listed company in Hong Kong Stock
+                      Exchange, Theme International Holdings Limited (990:HK)
                       <br />
                       <br />
                       Minority shareholders in BPIF includes one of the largest
@@ -141,22 +142,9 @@ class About extends Component {
                 <div className="col-lg-6 col-12 order-4">
                   <div className="about-content about-content-2">
                     <h3>
-                      <span>Subsidaries under BPIFG</span>
+                      <span>Header2</span>
                     </h3>
-                    <p>
-                      Across Asia, we have presence in Hong Kong, Singapore and
-                      Shanghai to be closer to our clients. Our entities are
-                      fully regulated in their respective jurisdictions
-                      <br />
-                      <br />
-                      1. Bright Point International Futures Limited (HK)
-                      <br />
-                      2. Bright Point International Futures (SG) Pte Ltd
-                      <br />
-                      3. BPI Trading (SG) Pte Ltd
-                      <br />
-                      4. Guang Dian International Trading Limited (CN)
-                    </p>
+                    <p>Writeup</p>
                     <a
                       href={`${process.env.PUBLIC_URL}/contact-us`}
                       className="ht-btn--default ht-btn--default--dark-hover section-space--top--20"
