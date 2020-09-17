@@ -50,7 +50,7 @@ class ServiceTabExample extends Component {
         bgUrl: "service4.png",
         contentTitle: "Others",
         contentDesc: "Writeup",
-        serviceLink: "advisory",
+        serviceLink: "others",
       },
     ];
 
