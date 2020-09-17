@@ -39,7 +39,7 @@ class HomeOne extends Component {
         {/* <TeamJob /> */}
 
         {/* Team */}
-        <TeamMemberGrid />
+        {/* <TeamMemberGrid /> */}
 
         {/* Testimonial Slider */}
         {/* <TestimonialSlider /> */}

@@ -1,4 +1,4 @@
-{/* <div className="header-info-area">
+<div className="header-info-area">
   <div className="container">
     <div className="row align-items-center">
       <div className="col-lg-12">
@@ -56,4 +56,4 @@
       </div>
     </div>
   </div>
-</div>; */}
+</div>;

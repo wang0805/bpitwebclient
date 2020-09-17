@@ -11,23 +11,23 @@ class Services extends Component {
 
     let data = [
       {
-        pageLink: "services",
+        pageLink: "trading",
         img: "service1.jpg",
-        iconClass: "flaticon-earth-globe",
+        iconClass: "flaticon-coal-1",
         serviceTitle: "Gold",
         serviceSubtitle: "Writeup",
       },
       {
-        pageLink: "services",
+        pageLink: "trading",
         img: "service2.jpg",
-        iconClass: "flaticon-stats",
+        iconClass: "flaticon-coal-1",
         serviceTitle: "Silver",
         serviceSubtitle: "writeup",
       },
       {
-        pageLink: "services",
+        pageLink: "trading",
         img: "service3.jpg",
-        iconClass: "flaticon-customer-service",
+        iconClass: "flaticon-coal-1",
         serviceTitle: "Copper",
         serviceSubtitle: "writeup",
       },

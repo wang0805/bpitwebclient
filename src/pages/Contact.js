@@ -115,11 +115,15 @@ class Contact extends Component {
                 <div className="col-lg-8 col-12">
                   <div className="contact-form">
                     <h3>Leave Your Message</h3>
-                    <form name="contact-form" id="contact-form" method="post">
+                    <form
+                      name="contact-form-bpit"
+                      id="contact-form"
+                      method="post"
+                    >
                       <input
                         type="hidden"
                         name="form-name"
-                        value="contact-form"
+                        value="contact-form-bpit"
                       />
                       <input type="hidden" name="bot-field" />
                       <div className="row row-10">

@@ -162,7 +162,7 @@ class About extends Component {
           {/* <Funfact/> */}
 
           {/* Team member */}
-          <TeamMemberGrid />
+          {/* <TeamMemberGrid /> */}
 
           {/* Testimonial Slider */}
           {/* <TestimonialSlider/> */}

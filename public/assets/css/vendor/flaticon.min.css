@@ -1,6 +1,6 @@
 /*
   	Flaticon icon font: Flaticon
-  	Creation date: 06/09/2020 04:38
+  	Creation date: 17/09/2020 07:31
   	*/
 
 @font-face {
@@ -11,7 +11,7 @@
     url("../../fonts/Flaticon.woff") format("woff"),
     url("../../fonts/Flaticon.ttf") format("truetype"),
     url("../../fonts/Flaticon.svg#Flaticon") format("svg");
-  font-weight: 300;
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -37,21 +37,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-stats:before {
+.flaticon-earth-globe:before {
   content: "\f100";
 }
-.flaticon-earth-globe:before {
+.flaticon-commodity:before {
   content: "\f101";
 }
-.flaticon-customer-service:before {
+.flaticon-coal-1:before {
   content: "\f102";
 }
-.flaticon-discuss:before {
+.flaticon-cash-flow:before {
   content: "\f103";
 }
-.flaticon-conference:before {
+.flaticon-stock-market:before {
   content: "\f104";
-}
-.flaticon-advisor:before {
-  content: "\f105";
 }

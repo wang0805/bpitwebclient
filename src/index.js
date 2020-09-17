@@ -13,19 +13,16 @@ import HomeOne from "./HomeOne";
 // import HomeTwo from "./HomeTwo";
 // import HomeThree from "./HomeThree";
 import About from "./pages/About";
-import AcctOpening from "./pages/Accountopening";
+// import AcctOpening from "./pages/Accountopening";
 import Services from "./service/Services";
 // import ServiceDetailsLeftSidebar from "./service/ServiceDetailsLeftSidebar";
-import Clearing from "./service/Clearing";
-import Cfd from "./service/Cfd";
-import Idb from "./service/Idb";
 // import ServiceDetailsRightSidebar from "./service/ServiceDetailsRightSidebar";
-import Projects from "./project/Projects";
-import ProjectDetails from "./project/ProjectDetails";
-import BlogLeftSidebar from "./blog/BlogLeftSidebar";
-import BlogRightSidebar from "./blog/BlogRightSidebar";
-import BlogDetailsLeftSidebar from "./blog/BlogDetailsLeftSidebar";
-import BlogDetailsRightSidebar from "./blog/BlogDetailsRightSidebar";
+// import Projects from "./project/Projects";
+// import ProjectDetails from "./project/ProjectDetails";
+// import BlogLeftSidebar from "./blog/BlogLeftSidebar";
+// import BlogRightSidebar from "./blog/BlogRightSidebar";
+// import BlogDetailsLeftSidebar from "./blog/BlogDetailsLeftSidebar";
+// import BlogDetailsRightSidebar from "./blog/BlogDetailsRightSidebar";
 import Contact from "./pages/Contact";
 import PageNotFound from "./pages/404";
 import NoMAtch from "./pages/404";
@@ -62,24 +59,17 @@ class Root extends Component {
             path={`${process.env.PUBLIC_URL}/service-details-left-sidebar`}
             component={ServiceDetailsLeftSidebar}
           /> */}
-          <Route
-            exact
-            path={`${process.env.PUBLIC_URL}/clearing`}
-            component={Clearing}
-          />
-          <Route exact path={`${process.env.PUBLIC_URL}/cfd`} component={Cfd} />
-          <Route exact path={`${process.env.PUBLIC_URL}/idb`} component={Idb} />
           {/* <Route
             exact
             path={`${process.env.PUBLIC_URL}/service-details-right-sidebar`}
             component={ServiceDetailsRightSidebar}
           /> */}
-          <Route
+          {/* <Route
             exact
             path={`${process.env.PUBLIC_URL}/openaccount`}
             component={AcctOpening}
-          />
-          <Route
+          /> */}
+          {/* <Route
             exact
             path={`${process.env.PUBLIC_URL}/projects`}
             component={Projects}
@@ -88,8 +78,8 @@ class Root extends Component {
             exact
             path={`${process.env.PUBLIC_URL}/project-details`}
             component={ProjectDetails}
-          />
-          <Route
+          /> */}
+          {/* <Route
             exact
             path={`${process.env.PUBLIC_URL}/blog-left-sidebar`}
             component={BlogLeftSidebar}
@@ -108,7 +98,7 @@ class Root extends Component {
             exact
             path={`${process.env.PUBLIC_URL}/blog-details-right-sidebar`}
             component={BlogDetailsRightSidebar}
-          />
+          /> */}
           <Route
             exact
             path={`${process.env.PUBLIC_URL}/contact-us`}
