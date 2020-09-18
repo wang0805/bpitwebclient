@@ -31,25 +31,27 @@ class ServiceTabExample extends Component {
       {
         bgUrl: "service1.png",
         contentTitle: "Trading",
-        contentDesc: "Writeup",
+        contentDesc:
+          "With the experience of the team, we strive to create value to the whole commodity chain and fuel the expansion and financial growth of the sector worldwide",
         serviceLink: "trading",
       },
       {
         bgUrl: "service2.png",
         contentTitle: "Arbitrage",
-        contentDesc: "Writeup",
+        contentDesc:
+          "Our team is experienced in identifying market inefficiencies between different stakeholders in market and capitalizing on them quickly to have a competitive advantage",
         serviceLink: "arbitrage",
       },
       {
         bgUrl: "service3.png",
         contentTitle: "Financing",
-        contentDesc: "Writeup",
+        contentDesc: "Coming Soon",
         serviceLink: "financing",
       },
       {
         bgUrl: "service4.png",
         contentTitle: "Others",
-        contentDesc: "Writeup",
+        contentDesc: "Coming Soon",
         serviceLink: "others",
       },
     ];

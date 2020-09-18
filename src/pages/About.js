@@ -79,16 +79,13 @@ class About extends Component {
                     </p>
                     <h3>Mission</h3>
                     <p>
-                      To ensure a consistent expansion, diversification and
-                      development of trade to be the largest, most profitable
-                      and most respected trading company
+                      To strive for continuous improvement and establish
+                      ourselves as one of the most renowned trading companies
                     </p>
                     <h3>Vision</h3>
                     <p>
-                      To become a benchmark trading company in Hong Kong
-                      providing world class products to satisfied customers
-                      through continuous improvement driven by integrity,
-                      teamwork and commitment by our people
+                      To become one of the most renowned trading companies,
+                      adding value to very client in the supply chain
                     </p>
                     <a
                       href="trading"

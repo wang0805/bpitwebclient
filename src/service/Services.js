@@ -15,21 +15,24 @@ class Services extends Component {
         img: "gold.png",
         iconClass: "flaticon-coal-1",
         serviceTitle: "Gold",
-        serviceSubtitle: "Writeup",
+        serviceSubtitle:
+          "Gold has been a globally recognised as a store of value since ancient times. It is considered a 'safe haven' asset in turbulent economic circumstances and current monetary policies climate",
       },
       {
         pageLink: "trading",
         img: "silver.png",
         iconClass: "flaticon-coal-1",
         serviceTitle: "Silver",
-        serviceSubtitle: "writeup",
+        serviceSubtitle:
+          "Silver is one of the most versatile precious metal, playing a part in being a recognised store of value as well as multiple industrial uses",
       },
       {
         pageLink: "trading",
         img: "copper.png",
         iconClass: "flaticon-coal-1",
-        serviceTitle: "Copper",
-        serviceSubtitle: "writeup",
+        serviceTitle: "Base Metals",
+        serviceSubtitle:
+          "Base metals have been widely used in industrial and commercial applications. Copper has been a vital commodity in the industrial development of a country, Aluminium has been commonly used in transportation industry such as aircrafts, just to name a few",
       },
       // {
       //   pageLink: "advisory",
