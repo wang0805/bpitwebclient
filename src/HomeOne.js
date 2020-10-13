@@ -7,7 +7,7 @@ import ServiceTab from "./components/ServiceTab";
 import VideoCta from "./components/VideoCta";
 // import ProjectSlider from "./components/ProjectSlider";
 // import TeamJob from "./components/TeamJob";
-import TeamMemberGrid from "./components/TeamMemberGrid";
+// import TeamMemberGrid from "./components/TeamMemberGrid";
 // import TestimonialSlider from "./components/TestimonialSlider";
 // import BlogGrid from "./components/BlogGrid";
 // import BrandLogoSlider from "./components/BrandLogoSlider";
