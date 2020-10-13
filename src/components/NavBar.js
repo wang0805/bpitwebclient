@@ -58,86 +58,7 @@ class NavBar extends Component {
         >
           <div className="header-area__desktop header-area__desktop--default">
             {/*=======  header top bar  =======*/}
-            <div className="header-top-bar">
-              <div className="container">
-                <div className="row align-items-center">
-                  <div className="col-lg-4">
-                    {/* top bar left */}
-                    <div className="top-bar-left-wrapper">
-                      <div className="social-links social-links--white-topbar d-inline-block">
-                        <ul>
-                          <li>
-                            <a href="https://www.facebook.com/BPIFinancial/">
-                              <i className="zmdi zmdi-facebook" />
-                            </a>
-                          </li>
-                          {/* <li>
-                            <a href="//twitter.com">
-                              <i className="zmdi zmdi-twitter" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="//vimeo.com">
-                              <i className="zmdi zmdi-vimeo" />
-                            </a>
-                          </li> */}
-                          <li>
-                            <a href="https://www.linkedin.com/company/bpifinancial/">
-                              <i className="zmdi zmdi-linkedin-box" />
-                            </a>
-                          </li>
-                          {/* <li>
-                            <a href="//skype.com">
-                              <i className="zmdi zmdi-skype" />
-                            </a>
-                          </li> */}
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-8">
-                    {/* top bar right */}
-                    <div className="top-bar-right-wrapper">
-                      <ul className="nav justify-content-end">
-                        {/* <li className="nav-item">
-                          <a
-                            className="nav-link"
-                            href={`${process.env.PUBLIC_URL}/openaccount`}
-                          >
-                            {t("acctopening")}
-                          </a>
-                        </li> */}
-                        <li className="nav-item">
-                          <a
-                            active
-                            className="nav-link active"
-                            href="#"
-                            onClick={() => this.handleClick("en")}
-                          >
-                            ENG
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a
-                            className="nav-link"
-                            href="#"
-                            onClick={() => this.handleClick("ch")}
-                          >
-                            中文
-                          </a>
-                        </li>
-                      </ul>
-                      {/* <a
-                        href={`${process.env.PUBLIC_URL}/contact-us`}
-                        className="ht-btn ht-btn--default d-inline-block"
-                      >
-                        CONTACT US
-                      </a> */}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
             {/*=======  End of header top bar  =======*/}
 
             {/*=======  header info area  =======*/}
@@ -208,7 +129,12 @@ class NavBar extends Component {
                                 {t("about")}
                               </Link>
                             </li>
-                            <li className="has-children has-children--multilevel-submenu">
+                            <li>
+                              <Link to={`${process.env.PUBLIC_URL}/trading`}>
+                                {t("service")}
+                              </Link>
+                            </li>
+                            {/* <li className="has-children has-children--multilevel-submenu">
                               <Link to={`${process.env.PUBLIC_URL}/trading`}>
                                 {t("service")}
                               </Link>
@@ -234,16 +160,15 @@ class NavBar extends Component {
                                     Financing
                                   </Link>
                                 </li>
-
-                                {/* <li>
+                                <li>
                                   <Link
                                     to={`${process.env.PUBLIC_URL}/service-details-right-sidebar`}
                                   >
                                     Service Details Right Sidebar
                                   </Link>
-                                </li> */}
+                                </li>
                               </ul>
-                            </li>
+                            </li> */}
                             {/* <li className="has-children has-children--multilevel-submenu">
                               <Link to={`${process.env.PUBLIC_URL}/projects`}>
                                 PROJECT

@@ -39,13 +39,14 @@ class ServiceTabExample extends Component {
         bgUrl: "service2.png",
         contentTitle: "Arbitrage",
         contentDesc:
-          "Our team is experienced in identifying market inefficiencies between different stakeholders in market and capitalizing on them quickly to have a competitive advantage",
+          "Our team has vast experience and the know-how in identifying market inefficiencies between various markets and/or exchanges such as Shanghai Futures Exchange, Comex, LME, LBMA, etc and capitalizing them quickly. We are also able to facilitate the entire value chain from derivatives hedges to physical cargo sales to end clients",
         serviceLink: "arbitrage",
       },
       {
         bgUrl: "service3.png",
         contentTitle: "Financing",
-        contentDesc: "Coming Soon",
+        contentDesc:
+          "Our team offers a wide range of flexible financing structure and customized trade finance solutions for our end clients. Our services ranges from plain vanilla inventory financing strutures to complex cross-border financing structures involving multiple counterparties",
         serviceLink: "financing",
       },
       {
@@ -68,12 +69,12 @@ class ServiceTabExample extends Component {
             <div className="service-tab__single-content">
               <h3 className="service-tab__title">{val.contentTitle}</h3>
               <p className="service-tab__text">{val.contentDesc}</p>
-              <a
+              {/* <a
                 href={`${process.env.PUBLIC_URL}/${val.serviceLink}`}
                 className="see-more-link"
               >
                 SEE MORE
-              </a>
+              </a> */}
             </div>
           </div>
         </TabPanel>

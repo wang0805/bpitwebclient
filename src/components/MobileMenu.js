@@ -93,16 +93,21 @@ class MobileMenu extends Component {
                   <li>
                     <Link to={`${process.env.PUBLIC_URL}/about-us`}>ABOUT</Link>
                   </li>
-                  <li className="menu-item-has-children">
+                  <li>
+                    <Link to={`${process.env.PUBLIC_URL}/trading`}>
+                      SERVICE
+                    </Link>
+                  </li>
+                  {/* <li className="menu-item-has-children">
                     <Link to={`${process.env.PUBLIC_URL}/trading`}>
                       SERVICE
                     </Link>
                     <ul className="sub-menu">
-                      {/* <li>
+                      <li>
                         <Link to={`${process.env.PUBLIC_URL}/services`}>
                           Service List
                         </Link>
-                      </li> */}
+                      </li>
                       <li>
                         <Link to={`${process.env.PUBLIC_URL}/trading`}>
                           Trading
@@ -113,19 +118,9 @@ class MobileMenu extends Component {
                         <Link to={`${process.env.PUBLIC_URL}/financing`}>
                           Financing
                         </Link>
-                        {/* <Link to={`${process.env.PUBLIC_URL}/advisory`}>
-                          Advisory
-                        </Link> */}
                       </li>
-                      {/* <li>
-                        <Link
-                          to={`${process.env.PUBLIC_URL}/service-details-right-sidebar`}
-                        >
-                          Service Details Right Sidebar
-                        </Link>
-                      </li> */}
                     </ul>
-                  </li>
+                  </li> */}
                   {/* <li className="menu-item-has-children">
                                         <Link to={`${process.env.PUBLIC_URL}/projects`} >PROJECT</Link>
                                         <ul className="sub-menu">

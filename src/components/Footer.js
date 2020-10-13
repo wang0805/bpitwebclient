@@ -94,7 +94,7 @@ class Footer extends Component {
                         <h4 className="footer-widget__title">USEFUL LINKS</h4>
                         <ul className="footer-widget__navigation">
                           <li>
-                            <a href={`${process.env.PUBLIC_URL}/services`}>
+                            <a href={`${process.env.PUBLIC_URL}/trading`}>
                               Our Services
                             </a>
                           </li>

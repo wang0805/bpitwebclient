@@ -80,12 +80,12 @@ class About extends Component {
                     <h3>Mission</h3>
                     <p>
                       To strive for continuous improvement and establish
-                      ourselves as one of the most renowned trading companies
+                      ourselves as one of the most reliable trading houses
                     </p>
                     <h3>Vision</h3>
                     <p>
-                      To become one of the most renowned trading companies,
-                      adding value to very client in the supply chain
+                      To become one of the most efficient trading houses, adding
+                      value to very participant in the value chain
                     </p>
                     <a
                       href="trading"
@@ -112,11 +112,11 @@ class About extends Component {
                     <img src="assets/img/about/about-1.jpg" alt="" />
                   </div>
                 </div>
-                <div className="col-sm-6 col-12 order-2 order-lg-3">
+                {/* <div className="col-sm-6 col-12 order-2 order-lg-3">
                   <div className="about-image about-image-2">
                     <img src="assets/img/about/about-2.jpg" alt="" />
                   </div>
-                </div>
+                </div> */}
                 <div className="col-lg-6 col-12 order-3 order-lg-1">
                   <div className="about-content about-content-1">
                     <h3>
@@ -128,15 +128,15 @@ class About extends Component {
                       Exchange, Theme International Holdings Limited (990:HK)
                       <br />
                       <br />
-                      Minority shareholders in BPIF includes one of the largest
-                      privately Iron Ore miner globally, one of the largest
-                      privately owned steel mills in Mainland China, as well as
-                      one of the active commodity focused investment fund in the
-                      industry
+                      Minority shareholders of BPIT includes one of the largest
+                      privately owned steel mills in China, owner of the largest
+                      iron ore and bulk commodities traders in China, as well as
+                      the founder of one of the top trading firms in the iron
+                      ore space
                     </p>
                   </div>
                 </div>
-                <div className="col-lg-6 col-12 order-4">
+                {/* <div className="col-lg-6 col-12 order-4">
                   <div className="about-content about-content-2">
                     <h3>
                       <span>Header2</span>
@@ -149,7 +149,7 @@ class About extends Component {
                       Contact us
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
