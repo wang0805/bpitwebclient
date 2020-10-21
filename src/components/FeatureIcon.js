@@ -6,17 +6,20 @@ class FeatureIcon extends Component {
       {
         featureIcon: "feature-3.png",
         featureTitle: "Arbitrage",
-        featureDescription: "",
+        featureDescription:
+          "Cross-market arbitrages in derivatives and physical market",
       },
       {
         featureIcon: "feature-9.png",
         featureTitle: "Physical Trading",
-        featureDescription: "",
+        featureDescription:
+          "Purchase and Sale of physical precious and base metals",
       },
       {
         featureIcon: "feature-10.png",
         featureTitle: "Hedging Solutions",
-        featureDescription: "",
+        featureDescription:
+          "We can provide solutions for clients to hedge their exposure in the physical market with us",
       },
     ];
 
@@ -47,7 +50,7 @@ class FeatureIcon extends Component {
       <div>
         {/*Feature section start*/}
         <div
-          className={`feature-section section-space--inner--60 ${this.props.background}`}
+          className={`feature-section section-space--inner--80 ${this.props.background}`}
         >
           <div className="container">
             <div className="col-lg-12">
