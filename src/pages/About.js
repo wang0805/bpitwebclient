@@ -74,8 +74,10 @@ class About extends Component {
                     <h3>Welcome to BPI Trading (SG) Pte Ltd</h3>
                     {/* <h1>50 Years of Experience in Industry</h1> */}
                     <p>
-                      BPI Financial Group Limited (BPIF) is a boutique trading
-                      company with a global presence
+                      BPI Trading (SG) is a trading company incorporated in 8th
+                      May 2020 in Singapore. We trade mainly in precious and
+                      base metals, and have developed a strong presence in Asia
+                      and plan to expand globally
                     </p>
                     <h3>Mission</h3>
                     <p>
@@ -84,8 +86,8 @@ class About extends Component {
                     </p>
                     <h3>Vision</h3>
                     <p>
-                      To become one of the most efficient trading houses, adding
-                      value to very participant in the value chain
+                      To become one of the most efficient trading houses and
+                      continously adding more value to the value chain
                     </p>
                     <a
                       href="trading"
@@ -107,7 +109,7 @@ class About extends Component {
           <div className="about-section section-space--inner--120">
             <div className="container">
               <div className="about-wrapper row">
-                <div className="col-sm-6 col-12 order-1 order-lg-2">
+                <div className="col-sm-12 col-12 order-1 order-lg-2">
                   <div className="about-image about-image-1">
                     <img src="assets/img/about/about-4.png" alt="" />
                   </div>
@@ -117,7 +119,7 @@ class About extends Component {
                     <img src="assets/img/about/about-2.jpg" alt="" />
                   </div>
                 </div> */}
-                <div className="col-lg-6 col-12 order-3 order-lg-1">
+                <div className="col-lg-12 col-12 order-3 order-lg-1">
                   <div className="about-content about-content-1">
                     <h3>
                       <span>Our Shareholders</span>
@@ -126,13 +128,10 @@ class About extends Component {
                       Our parent company is BPI Financial Group Limited which is
                       part of a larger listed company in Hong Kong Stock
                       Exchange, Theme International Holdings Limited (990:HK)
-                      <br />
-                      <br />
-                      Minority shareholders of BPIT includes one of the largest
-                      privately owned steel mills in China, owner of the largest
-                      iron ore and bulk commodities traders in China, as well as
-                      the founder of one of the top trading firms in the iron
-                      ore space
+                      Minority shareholders of BPIT includes but not limited to
+                      one of the largest privately owned steel mills in China,
+                      owner of the largest iron ore and bulk commodities trading
+                      company in China
                     </p>
                   </div>
                 </div>
