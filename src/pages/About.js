@@ -111,7 +111,7 @@ class About extends Component {
               <div className="about-wrapper row">
                 <div className="col-sm-12 col-12 order-1 order-lg-2">
                   <div className="about-image about-image-1">
-                    <img src="assets/img/about/about-4.png" alt="" />
+                    <img src="assets/img/about/bpitsg2.jpg" alt="" />
                   </div>
                 </div>
                 {/* <div className="col-sm-6 col-12 order-2 order-lg-3">

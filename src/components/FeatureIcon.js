@@ -4,22 +4,22 @@ class FeatureIcon extends Component {
   render() {
     let data = [
       {
-        featureIcon: "feature-3.png",
-        featureTitle: "Arbitrage",
+        featureIcon: "feature-39.png",
+        featureTitle: "Arbitrage Strategies",
         featureDescription:
           "Cross-market arbitrages in derivatives and physical market",
       },
       {
-        featureIcon: "feature-9.png",
+        featureIcon: "feature-99.png",
         featureTitle: "Physical Trading",
         featureDescription:
           "Purchase and Sale of physical precious and base metals",
       },
       {
-        featureIcon: "feature-10.png",
-        featureTitle: "Hedging Solutions",
+        featureIcon: "feature-109.png",
+        featureTitle: "Financing Structures",
         featureDescription:
-          "We can provide solutions for clients to hedge their exposure in the physical market with us",
+          "Hedging and trading solutions in the paper and physical market",
       },
     ];
 
@@ -38,8 +38,8 @@ class FeatureIcon extends Component {
               />
             </div>
             <div className="content">
-              <h3>{val.featureTitle}</h3>
-              <p>{val.featureDescription}</p>
+              <h3 className="text-center">{val.featureTitle}</h3>
+              <p className="text-center">{val.featureDescription}</p>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ class FeatureIcon extends Component {
       <div>
         {/*Feature section start*/}
         <div
-          className={`feature-section section-space--inner--80 ${this.props.background}`}
+          className={`feature-section section-space--inner--60 ${this.props.background}`}
         >
           <div className="container">
             <div className="col-lg-12">
