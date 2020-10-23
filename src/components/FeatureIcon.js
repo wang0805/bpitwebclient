@@ -4,19 +4,19 @@ class FeatureIcon extends Component {
   render() {
     let data = [
       {
-        featureIcon: "feature-39.png",
+        featureIcon: "feature-3.png",
         featureTitle: "Arbitrage Strategies",
         featureDescription:
           "Cross-market arbitrages in derivatives and physical market",
       },
       {
-        featureIcon: "feature-99.png",
+        featureIcon: "feature-9.png",
         featureTitle: "Physical Trading",
         featureDescription:
           "Purchase and Sale of physical precious and base metals",
       },
       {
-        featureIcon: "feature-109.png",
+        featureIcon: "feature-10.png",
         featureTitle: "Financing Structures",
         featureDescription:
           "Hedging and trading solutions in the paper and physical market",
