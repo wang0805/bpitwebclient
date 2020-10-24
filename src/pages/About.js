@@ -75,7 +75,7 @@ class About extends Component {
                     {/* <h1>50 Years of Experience in Industry</h1> */}
                     <p>
                       BPI Trading (SG) is a trading company incorporated in 8th
-                      August 2020 in Singapore. We trade mainly in precious and
+                      August 2017 in Singapore. We trade mainly in precious and
                       base metals, and have developed a strong presence in Asia
                       and plan to expand globally
                     </p>
