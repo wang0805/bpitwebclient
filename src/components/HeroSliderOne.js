@@ -35,13 +35,13 @@ class HeroSliderOne extends Component {
       {
         bgImg: "slider3.png",
         sliderTitle: "Welcome",
-        sliderSubtitle: "Commodity Trading",
+        sliderSubtitle: "Physical Commodity Trading",
         btnLink: "contact-us",
       },
       {
         bgImg: "slider2.png",
         sliderTitle: "Welcome",
-        sliderSubtitle: "Physical Arbitrages",
+        sliderSubtitle: "Cross-Market Arbitrages",
         btnLink: "contact-us",
       },
       {
