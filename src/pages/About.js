@@ -58,7 +58,7 @@ class About extends Component {
 
         <div className="page-wrapper section-space--inner--top--120">
           {/*About section start*/}
-          <div className="about-section section-space--inner--bottom--120">
+          <div className="about-section section-space--inner--bottom--80">
             <div className="container">
               <div className="row row-25 align-items-center">
                 <div className="col-lg-6 col-12 mb-30">
@@ -111,7 +111,7 @@ class About extends Component {
           {/*About section end*/}
 
           {/* Feature Icon */}
-          <FeatureIcon background="grey-bg" />
+          {/* <FeatureIcon background="grey-bg" /> */}
 
           {/*About section start*/}
           <div className="about-section section-space--inner--120">
