@@ -117,7 +117,7 @@ class About extends Component {
           <div className="about-section section-space--inner--120">
             <div className="container">
               <div className="about-wrapper row">
-                <div className="col-sm-6 col-12 order-1 order-lg-2">
+                <div className="col-lg-6 col-12 order-1 order-lg-2">
                   <div className="about-image-1">
                     {/* <img src="assets/img/about/bpitsg2.jpg" alt="" /> */}
                     <ModalImage
