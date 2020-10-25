@@ -17,7 +17,7 @@ class FeatureIcon extends Component {
       },
       {
         featureIcon: "feature-10.png",
-        featureTitle: "Financing Structures",
+        featureTitle: "Financing Solutions",
         featureDescription:
           "Hedging and trading solutions in the paper and physical market",
       },

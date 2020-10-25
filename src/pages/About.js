@@ -2,23 +2,31 @@ import React, { Component } from "react";
 import NavBar from "../components/NavBar";
 import FeatureIcon from "../components/FeatureIcon";
 // import Funfact from "../components/Funfact";
-import TeamMemberGrid from "../components/TeamMemberGrid";
+// import TeamMemberGrid from "../components/TeamMemberGrid";
 // import TestimonialSlider from "../components/TestimonialSlider";
 // import BrandLogoSlider from "../components/BrandLogoSlider";
 import Footer from "../components/Footer";
 import MobileMenu from "../components/MobileMenu";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
+import ModalImage from "react-modal-image";
+
 class About extends Component {
   constructor() {
     super();
     this.state = {
       isOpen: false,
+      open: false,
     };
     this.openModal = this.openModal.bind(this);
+    this.closeLightbox = this.closeLightbox.bind(this);
   }
 
   openModal() {
     this.setState({ isOpen: true });
+  }
+
+  closeLightbox() {
+    this.setState({ open: !this.state.open });
   }
 
   render() {
@@ -109,9 +117,14 @@ class About extends Component {
           <div className="about-section section-space--inner--120">
             <div className="container">
               <div className="about-wrapper row">
-                <div className="col-sm-12 col-12 order-1 order-lg-2">
-                  <div className="about-image about-image-1">
-                    <img src="assets/img/about/bpitsg2.jpg" alt="" />
+                <div className="col-sm-6 col-12 order-1 order-lg-2">
+                  <div className="about-image-1">
+                    {/* <img src="assets/img/about/bpitsg2.jpg" alt="" /> */}
+                    <ModalImage
+                      small="assets/img/about/bpitsg.png"
+                      large="assets/img/about/bpitsg.png"
+                      alt=""
+                    />
                   </div>
                 </div>
                 {/* <div className="col-sm-6 col-12 order-2 order-lg-3">
@@ -119,7 +132,7 @@ class About extends Component {
                     <img src="assets/img/about/about-2.jpg" alt="" />
                   </div>
                 </div> */}
-                <div className="col-lg-12 col-12 order-3 order-lg-1">
+                <div className="col-lg-6 col-12 order-3 order-lg-1">
                   <div className="about-content about-content-1">
                     <h3>
                       <span>Our Shareholders</span>
