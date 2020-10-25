@@ -19,7 +19,7 @@ class MobileMenu extends Component {
     for (let i = 0; i < offCanvasNavSubMenu.length; i++) {
       offCanvasNavSubMenu[i].insertAdjacentHTML(
         "beforebegin",
-        "<span class='menu-expand'><i></i></span>"
+        "<span class='menu-expand'><i style={{backgroundColor: '#facc34'}}></i></span>"
       );
     }
 
