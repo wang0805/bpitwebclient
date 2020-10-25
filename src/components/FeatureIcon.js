@@ -38,8 +38,8 @@ class FeatureIcon extends Component {
               />
             </div>
             <div className="content">
-              <h3 className="text-center">{val.featureTitle}</h3>
-              <p className="text-center">{val.featureDescription}</p>
+              <h3>{val.featureTitle}</h3>
+              <p>{val.featureDescription}</p>
             </div>
           </div>
         </div>
