@@ -180,12 +180,15 @@
           display: block;
         }
         i {
-          background-color: $theme-color--black;
+          //   background-color: $theme-color--black;
+          background-color: #facc34;
           &:before {
-            background-color: $theme-color--black;
+            // background-color: $theme-color--black;
+            background-color: #facc34;
           }
           &:after {
-            background-color: $theme-color--black;
+            // background-color: $theme-color--black;
+            background-color: #facc34;
           }
         }
       }
