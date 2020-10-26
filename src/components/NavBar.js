@@ -65,9 +65,13 @@ class NavBar extends Component {
             <div
               style={{
                 position: "fixed",
-                top: 20,
-                right: 20,
+                top: 15,
+                right: 15,
                 zIndex: 2,
+                padding: "10px 10px",
+                backgroundColor: "#282460",
+                borderRadius: "5px",
+                opacity: "50%",
               }}
             >
               <div

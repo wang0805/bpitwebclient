@@ -37,16 +37,14 @@ class HeroSliderTwo extends Component {
       },
       {
         bgImg: "slider2.png",
-        sliderTitle: "Build Your Dream With Passion",
-        sliderSubtitle:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.",
+        sliderTitle: "Welcome",
+        sliderSubtitle: "Cross Market Arbitrages",
         btnLink: "contact-us",
       },
       {
         bgImg: "slider1.png",
-        sliderTitle: "Build Your Dream With Passion",
-        sliderSubtitle:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.",
+        sliderTitle: "Welcome",
+        sliderSubtitle: "Financing Solutions",
         btnLink: "contact-us",
       },
     ];
@@ -70,7 +68,7 @@ class HeroSliderTwo extends Component {
                         href={`${process.env.PUBLIC_URL}/${val.btnLink}`}
                       >
                         {" "}
-                        GET START
+                        CONTACT
                       </a>
                     </div>
                   </div>

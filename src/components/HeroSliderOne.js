@@ -9,7 +9,7 @@ class HeroSliderOne extends Component {
     const params = {
       slidesPerView: 1,
       loop: true,
-      speed: 1000,
+      speed: 3000,
       watchSlidesVisibility: true,
       effect: "fade",
       navigation: {
