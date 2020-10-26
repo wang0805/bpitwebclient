@@ -83,19 +83,21 @@ class About extends Component {
                     {/* <h1>50 Years of Experience in Industry</h1> */}
                     <p>
                       BPI Trading (SG) is a trading company incorporated in 8th
-                      August 2017 in Singapore. We trade mainly in precious and
-                      base metals, and have developed a strong presence in Asia
-                      and plan to expand globally
+                      August 2017 in Singapore. BPIT specialises in commodities
+                      trading, physical and paper market arbitrages as well as
+                      providing financing solutions to valued clients within the
+                      whole value chain
                     </p>
                     <h3>Mission</h3>
                     <p>
                       To strive for continuous improvement and establish
-                      ourselves as one of the most reliable trading houses
+                      ourselves as one of the most efficient trading houses
+                      globally
                     </p>
                     <h3>Vision</h3>
                     <p>
-                      To become one of the most efficient trading houses and
-                      continously adding more value to the value chain
+                      To continuously add more value to the value chain and
+                      become one of the most reliable trading houses globally
                     </p>
                     <a
                       href="trading"
@@ -138,13 +140,16 @@ class About extends Component {
                       <span>Our Shareholders</span>
                     </h3>
                     <p>
-                      Our parent company is BPI Financial Group Limited which is
-                      part of a larger listed company in Hong Kong Stock
-                      Exchange, Theme International Holdings Limited (990:HK)
+                      Our parent company is BPI Financial Group Limited (BPIFG).
+                      BPIFG is one of the subsidaries under a Hong Kong Stock
+                      Exchange listed company; Theme International Holdings
+                      Limited (990:HK)
+                      <br />
+                      <br />
                       Minority shareholders of BPIT includes but not limited to
-                      one of the largest privately owned steel mills in China,
-                      owner of the largest iron ore and bulk commodities trading
-                      company in China
+                      one of the largest privately owned steel mills in China as
+                      well as the owner of the largest iron ore and bulk
+                      commodities trading company in China
                     </p>
                   </div>
                 </div>

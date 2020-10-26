@@ -27,12 +27,13 @@ class VideoCta extends Component {
                     BPI Trading (SG) Pte Ltd
                   </h3>
                   <p className="video-cta-content__text">
-                    BPT Trading was incorporated in 2017 by a group of market
-                    veterans who have been in the frontlines of precious and
-                    base metals trading business for more than a decade. We have
-                    established a network of trusted partners globally and
-                    strives to continue to create value and synergies in the
-                    trading market space
+                    BPI Trading (SG) was incorporated in 2017 by a team of
+                    market veterans who have been in the frontlines of precious
+                    and base metals commodities trading business for more than a
+                    decade. Over the years, the team in BPIT have established a
+                    network of trusted partners globally and strives to
+                    continuously create more value and synergies in the whole
+                    value chain
                   </p>
                   <a
                     href={`${process.env.PUBLIC_URL}/contact-us`}
