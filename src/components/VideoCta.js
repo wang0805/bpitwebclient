@@ -38,7 +38,7 @@ class VideoCta extends Component {
                     href={`${process.env.PUBLIC_URL}/contact-us`}
                     className="ht-btn ht-btn--round"
                   >
-                    CONTACT US
+                    CONTACT
                   </a>
                 </div>
               </div>
