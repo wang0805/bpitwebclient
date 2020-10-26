@@ -146,9 +146,9 @@ class About extends Component {
                       Limited (990:HK)
                       <br />
                       <br />
-                      Minority shareholders of BPIT includes but not limited to
-                      one of the largest privately owned steel mills in China as
-                      well as the owner of the largest iron ore and bulk
+                      Minority shareholders of BPIT include but are not limited
+                      to one of the largest privately owned steel mills in China
+                      as well as the owner of the largest iron ore and bulk
                       commodities trading company in China
                     </p>
                   </div>
