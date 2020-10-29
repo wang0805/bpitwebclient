@@ -123,8 +123,8 @@ class About extends Component {
                   <div className="about-image-1">
                     {/* <img src="assets/img/about/bpitsg2.jpg" alt="" /> */}
                     <ModalImage
-                      small="assets/img/about/bpitsg.png"
-                      large="assets/img/about/bpitsg.png"
+                      small="assets/img/about/bpi_big.png"
+                      large="assets/img/about/bpi_big.png"
                       alt=""
                     />
                   </div>
