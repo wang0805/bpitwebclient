@@ -16,7 +16,7 @@ class Services extends Component {
         iconClass: "flaticon-coal-1",
         serviceTitle: "Iron Ore",
         serviceSubtitle:
-          "Iron ores are rocks and minerals from which metallic iron can be extracted. The primarily use of iron is in the manufacture of steel where it takes about 1.6 tons of iron ore to produce 1 ton of steel",
+          "Iron ores are rocks and minerals from which metallic iron can be extracted. The primary use of iron is in the manufacture of steel where it takes about 1.6 tons of iron to produce 1 ton of steel",
       },
       {
         pageLink: "trading",
