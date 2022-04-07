@@ -12,19 +12,19 @@ class Services extends Component {
     let data = [
       {
         pageLink: "trading",
-        img: "gold.png",
+        img: "iron ore.png",
         iconClass: "flaticon-coal-1",
-        serviceTitle: "Gold",
+        serviceTitle: "Iron Ore",
         serviceSubtitle:
-          "Gold has been a globally recognised as a store of value since ancient times. It is considered a 'safe haven' asset in turbulent economic circumstances and current monetary policies climate",
+          "Iron ores are rocks and minerals from which metallic iron can be extracted. The primarily use of iron is in the manufacture of steel where it takes about 1.6 tons of iron ore to produce 1 ton of steel",
       },
       {
         pageLink: "trading",
-        img: "silver.png",
+        img: "coal.png",
         iconClass: "flaticon-coal-1",
-        serviceTitle: "Silver",
+        serviceTitle: "Coal",
         serviceSubtitle:
-          "Silver is one of the most versatile precious metal, playing a part in being a recognised store of value as well as multiple industrial uses",
+          "Metallurgical coal (or “coking coal”) is mined to produce the carbon used in steelmaking, while thermal coal is used to make steam that generates electricity",
       },
       {
         pageLink: "trading",
@@ -32,7 +32,7 @@ class Services extends Component {
         iconClass: "flaticon-coal-1",
         serviceTitle: "Base Metals",
         serviceSubtitle:
-          "Base metals have been widely used in industrial and commercial applications. Copper has been a vital commodity in the industrial development of a country, Aluminium has been commonly used in transportation industry such as aircrafts, just to name a few",
+          "Base metals have been widely used in industrial and commercial applications. Copper for example, has been a vital commodity in the industrial development of a country",
       },
       // {
       //   pageLink: "advisory",
