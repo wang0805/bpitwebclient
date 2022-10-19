@@ -13,7 +13,7 @@ class FeatureIcon extends Component {
         featureIcon: "feature-9.png",
         featureTitle: "Physical Trading",
         featureDescription:
-          "Purchase and Sale of physical precious and base metals",
+          "Purchase and Sale of physical metals",
       },
       {
         featureIcon: "feature-10.png",
