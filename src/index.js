@@ -28,6 +28,7 @@ import PageNotFound from "./pages/404";
 import NoMAtch from "./pages/404";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
+import Brochure from "../src/components/Brochure"
 
 class Root extends Component {
   render() {
@@ -103,6 +104,11 @@ class Root extends Component {
             exact
             path={`${process.env.PUBLIC_URL}/contact-us`}
             component={Contact}
+          />
+          <Route
+            exact
+            path={`${process.env.PUBLIC_URL}/brochure`}
+            component={Brochure}
           />
           <Route
             exact
